@@ -102,4 +102,4 @@ for i in range(len(testlabels)):
     if(predicted[i] == testlabels[i]):
        res+=1 
 print("Accuracy is " + str(res) + " out of " + str(len(testlabels)) + "  :  " + str((res/len(testlabels))*100) + "%")
-# accuracy result is 94.3% on record 105 for example
+# accuracy result is 94.3% on record 105 for example $ 78% on record 106
